@@ -1,2 +1,4 @@
 //listar las ramas
 git branch
+//crear nueva rama a partir de la actual
+git checkout -b nombre_nueva_rama
