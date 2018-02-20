@@ -2,3 +2,7 @@
 git branch
 //crear nueva rama a partir de la actual
 git checkout -b nombre_nueva_rama
+//cambiar entre ramas
+git checkout nombre_rama
+//fusionar rama en la actual
+git merge nombre_rama_fusionar
