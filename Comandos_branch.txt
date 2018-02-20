@@ -8,3 +8,10 @@ git checkout nombre_rama
 git merge nombre_rama_fusionar
 //eliminar rama local
 git branch -d nombre_rama
+//crear una rama remota
+//crear nueva rama a partir de la actual
+git checkout -b nombre_nueva_rama
+git push origin nombre_nueva_rama
+//crear una rama a partir de una rama remota
+git fetch origin
+git checkout -b nombre_rama origin/nombre_rama
