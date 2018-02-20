@@ -6,3 +6,5 @@ git checkout -b nombre_nueva_rama
 git checkout nombre_rama
 //fusionar rama en la actual
 git merge nombre_rama_fusionar
+//eliminar rama local
+git branch -d nombre_rama
